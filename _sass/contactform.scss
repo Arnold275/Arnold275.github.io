@@ -1,145 +1,91 @@
-//Code Source: https://codepen.io/nikhil8krishnan/pen/gaybLK
-//import font from google
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
+// Color vars
 
+$white: #fff;
+$grey: #ccc;
+$dark_grey: #555;
+$blue: #4f6fad;
+$pink: #ee9cb4;
+$black: #000000;
 
-//colors
-$primary-color   : #FF512F;
-$secondary-color : #333;
-$form-bg         : #fff;
+// Mixins
 
-
-//contact form
-.contact-form{
-    margin-top: 30px;
-    .input-block{
-        background-color: rgba(white, .8);
-        border: solid 1px $primary-color;
-        width: 100%;
-        height: 60px;
-        padding: 25px;
-        position: relative;
-        margin-bottom: 20px;
-        &.focus{
-            background-color: $form-bg;
-            border: solid 1px darken($primary-color, 10%);
-        }
-        &.textarea{
-            height: auto;
-            .form-control{
-                height: auto;
-                resize: none;
-            }
-        }
-        label{
-            position: absolute;
-            left: 25px;
-            top: 25px;
-            display: block;
-            margin: 0;
-            font-weight: 300;
-            z-index: 1;
-            color: $secondary-color;
-            font-size: 18px;
-            line-height: 10px;
-        }
-        .form-control{
-            background-color: transparent;
-            padding: 0;
-            border: none;
-            height: auto;
-            position: relative;
-            z-index: 2;
-            font-size: 18px;
-            color: $secondary-color;
-        }
-        .form-control:focus{
-            label{
-                top: 0;
-            }
-        }
-    }
-    .square-button{
-        background-color: rgba(white, .8);
-        color: darken($primary-color, 10%);
-        font-size: 26px;
-        text-transform: uppercase;
-        font-weight: 700;
-        text-align: center;
-        padding: 0 60px;
-        height: 60px;
-        border: none;
-        width: 100%;
-        &:hover,
-        &:focus{
-            background-color: white;
-        }
+@mixin lato-book { font-family: 'Lato', sans-serif; font-weight: 300; }
+@mixin lato-reg { font-family: 'Lato', sans-serif; font-weight: 400; }
+@mixin lato-bold { font-family: 'Lato', sans-serif; font-weight: 700; }
+@mixin btn($color) {
+  background-color: $color;
+  border-bottom-color: darken($color, 15%);
+  &:hover {
+      background-color: lighten($color, 5%);
     }
 }
 
-//tablet and above devices
-@media (min-width: 768px) { 
-  .contact-wrap{
-    width: 60%;
-    margin: auto;
+// Functions
+
+@function pxtoem($target, $context){
+  @return ($target/$context)+0em;
+}
+
+//
+
+form {
+  max-width: 100%;
+  display: block;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      margin: 0 0 0.25em 0; 
+      clear: both;
+      display: inline-block;
+      width: 100%;
+      &:last-child {
+          margin: 0;    
+        }
+        p {
+          margin: 0;
+          padding: 0;
+          float: left;
+          &.right {
+            float: right;
+          }
+        }     
+        .divider {
+          margin: 0.5em 0 0.5em 0;
+          border: 0;
+          height: 1px;
+          width: 100%;
+          display: block;
+          background-color: $black;
+          background-image: linear-gradient(to right, $pink, $black);
+        }
+        .req {
+          color: $pink; 
+        }
+    }
   }
-}
-
-
-
-
-//////////////////////////
-  /*----page styles---*/
-//////////////////////////
-body{
-  font-family: 'Roboto', sans-serif;
-}
-.contact-wrap{
-  padding: 15px;
-}
-
-h1{
-  background-color: white;
-  color: lighten($primary-color, 10%);
-  padding: 40px;
-  margin: 0 0 50px;
-  font-size: 30px;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-align: center;
-  small{
-    font-size: 18px;
+  label {
     display: block;
-    text-transform: none;
-    font-weight: 300;
-    margin-top: 10px;
-    color: lighten($primary-color, 10%);
+    margin: 0 0 0.5em 0;
+    color: $black;
+    font-size: pxtoem(16, 16);
   }
-}
-
-
-
-//follow me template
-.made-with-love{
-  margin-top: 40px;
-  padding: 10px;
-  clear: left;
-  text-align: center;
-  font-size: 10px;
-  font-family: arial;
-  color: #fff;
-  i{
-    font-style: normal;
-    color: #F50057;
-    font-size: 14px;
-    position: relative;
-    top: 2px;
+  input {
+    margin: 0 0 0.5em 0;
+    border: 1px solid $grey;
+    padding: 6px 10px;
+    color: $dark_grey;
+    font-size: pxtoem(16, 16);
   }
-  a{
-    color: #fff;
-    text-decoration: none;
-    &:hover{
-      text-decoration: underline;
-    }
+  textarea {
+    border: 1px solid $grey;
+    padding: 6px 10px;
+    width: 100%;
+    color: $dark_grey;
+  }
+  small {
+    color: $black;
+    margin: 0 0 0 0.5em;
   }
 }
