@@ -7,27 +7,6 @@ $blue: #4f6fad;
 $pink: #ee9cb4;
 $black: #000000;
 
-// Mixins
-
-@mixin lato-book { font-family: 'Lato', sans-serif; font-weight: 300; }
-@mixin lato-reg { font-family: 'Lato', sans-serif; font-weight: 400; }
-@mixin lato-bold { font-family: 'Lato', sans-serif; font-weight: 700; }
-@mixin btn($color) {
-  background-color: $color;
-  border-bottom-color: darken($color, 15%);
-  &:hover {
-      background-color: lighten($color, 5%);
-    }
-}
-
-// Functions
-
-@function pxtoem($target, $context){
-  @return ($target/$context)+0em;
-}
-
-//
-
 form {
   max-width: 100%;
   display: block;
