@@ -58,6 +58,7 @@ form {
     font-size: pxtoem(16, 16);
   }
   textarea {
+    resize: vertical;
     border: 1px solid $grey;
     padding: 6px 10px;
     width: 100%;
