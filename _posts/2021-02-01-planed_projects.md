@@ -22,7 +22,7 @@ At <a href="https://github.com/jhaardt">**GitHub**</a> you can find got a ROS wo
 At <a href="https://www.thingiverse.com/haardt">**Thingiverse**</a> I uploaded some of my 3D-Designs that I feel like sharing and could be useful for others.
 <figure class="full">
     <a href="/assets/img/posts/large_display_photo5240171216122262191.jpg"><img src="/assets/img/posts/large_display_photo5240171216122262191.jpg"></a>
-    <figcaption>Extension box for the Xioami screwdriver set to hold extra bits more at Thingiverse</figcaption>
+    <figcaption>Extension box for the Xiaomi screwdriver set to hold extra bits more at Thingiverse</figcaption>
 </figure>
 
 At <a href="https://www.instagram.com/haardt.design/">**Instagram**</a> I posted some pictures of my 3D-Designed objects and tinkering projects that are more design based and I'm specially proud of. Most of them are so special, that I'm not planning to upload them to Thingiverse.
