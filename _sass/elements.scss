@@ -81,6 +81,30 @@
         @include font-rem(14);
     }
 }
+.intro {
+  font-weight: lighter;
+  font-size: 1rem;
+}
+.content-flex {
+  display: flex;
+  align-items : center;
+  margin-bottom: 1.625rem;
+}
+.content.about {
+  float: left;
+  clear: both;
+  margin-bottom: 0;
+}
+.profile-pic {
+  float: right;
+  border: none;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.buttons {
+  margin: 0 0 0 2rem;
+}
 
 // hr break
 hr {

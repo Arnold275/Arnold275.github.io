@@ -1,0 +1,47 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include nav.html %}
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                <div class="post-title {% if page.feature %} feature {% endif %}">
+                    <h1>{{ page.title }}</h1>
+                    <a class="btn zoombtn" href="{{site.url}}">
+                        <i class="fa fa-home"></i>
+                    </a>   
+                </div>
+                <div class="content-flex">
+                    <div class="content about">
+                        {{ content }}
+                    </div>
+                    <img src="/assets/img/DSC00066_1.jpg" class="profile-pic">
+                </div>
+                <div class="buttons">
+                    <a class="btn zoombtn" target="_blank" href="{{ site.url }}/assets/downloads/CV_Haardt.pdf">
+                        My CV
+                    </a> 
+                    <a class="btn zoombtn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/julian-haardt/">
+                        LinkedIn
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </header>
+    {% include scripts.html %}
+    {% if site.mathjax == true %}
+    <!-- MathJax -->
+    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
+</body>
+</html>
