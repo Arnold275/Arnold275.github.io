@@ -39,7 +39,7 @@ In the meantime the parts arrived and the final tests are completed.
     <a href="/assets/img/posts/2021-02-14/2021_0504_16414400.jpg"><img src="/assets/img/posts/2021-02-14/2021_0504_16414400.jpg"></a>    
     <figcaption>Pictures of the Case for the pcb v1.1</figcaption>
 </figure>
-I also updated the Case to fit the updated v1.2 PCB.
+I also created an updated version of Case to fit the v1.2 PCB.
 - PCB v1.2 moved the SD-Card Reader further inwards, and allowed to remove the SD-Card slot.
 - PCB v1.2 fixed the alignment of the screw holes (they are now symmetrical.)
 
