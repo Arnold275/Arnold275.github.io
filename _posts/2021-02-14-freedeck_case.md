@@ -50,7 +50,7 @@ You can find the .stl files (v1.1 and v1.2) and an assembly + print instruction 
 
 ---
 Response/Achievments:
-- My Freedeck Case created positive Feedback from Freedeck-Team and got included in the official Freedeck-Wiki.
+- My Freedeck Case created positive Feedback from the Freedeck-Team and it got included in the official Freedeck-Wiki.
 - Multiple requests, to produce a Cases for people without a 3D Printer. If the People came from inside Europe, I was able provided this service for them on a "pay what you think it's worth to you" base.
 - Provided in depth support and guidance for people trying to print the Case or got general questions, via <a href="https://discord.com/invite/sEt2Rrd"> Discord</a>.
 
