@@ -37,11 +37,11 @@ In the meantime the parts arrived and the final tests are completed.
     <a href="/assets/img/posts/2021-02-14/2021_0504_16394400_3.jpg"><img src="/assets/img/posts/2021-02-14/2021_0504_16394400_3.jpg"></a>
     <a href="/assets/img/posts/2021-02-14/2021_0504_16401700_2.jpg"><img src="/assets/img/posts/2021-02-14/2021_0504_16401700_2.jpg"></a>
     <a href="/assets/img/posts/2021-02-14/2021_0504_16414400.jpg"><img src="/assets/img/posts/2021-02-14/2021_0504_16414400.jpg"></a>    
-    <figcaption>Pictures of the Case for the pcb v1.1</figcaption>
+    <figcaption>Pictures of the case for the pcb v1.1</figcaption>
 </figure>
-I also created an updated version of Case to fit the v1.2 PCB.
+I also created an updated version of case to fit the v1.2 PCB.
 - PCB v1.2 moved the SD-Card reader further inwards, and allowed to remove the SD-Card slot.
-- PCB v1.2 fixed the alignment of the screw holes (they are now symmetrical.)
+- PCB v1.2 fixed the alignment of the screw holes (they are now symmetrical).
 
 
 You can find the .stl files (v1.1 and v1.2) and an assembly + print instruction at <a href="https://www.thingiverse.com/thing:4849163"> Thingiverse</a>.
@@ -49,8 +49,8 @@ You can find the .stl files (v1.1 and v1.2) and an assembly + print instruction 
 
 
 ---
-Response/Achievments:
-- My Freedeck Case created positive Feedback from the Freedeck-Team and it got included in the official Freedeck-Wiki.
-- Multiple requests, to produce a Cases for people without a 3D Printer. If the request came from people inside of Europe, I was able provided this service on a "pay what you think it's worth it to you" base.
-- Provided in depth support and guidance for people trying to print the Case or got general questions, via <a href="https://discord.com/invite/sEt2Rrd"> Discord</a>.
+Response/Achievements:
+- My Freedeck Case created positive feedback from the Freedeck-Team and it got included in the official Freedeck-Wiki.
+- Multiple requests to produce cases for people without a 3D Printer. If the request came from people inside of Europe, I was able provided this service on a "pay what you think it's worth to you" base.
+- Provided in depth support and guidance for people trying to print the case or got general questions via <a href="https://discord.com/invite/sEt2Rrd"> Discord</a>.
 
